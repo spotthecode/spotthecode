@@ -1,0 +1,26 @@
+.layout{
+    display: grid;
+    grid-template-columns:max-content auto;
+    column-gap: 5px;
+
+}
+.side-bar{
+    background: rgb(236, 236, 236);
+    padding:1em;
+    overflow-y: scroll;
+    height: 100%;
+}
+.body{
+    padding:5px;
+    /* temp  */
+}
+.text-center{
+    text-align: center;
+}
+
+h3{
+   padding-top: 10px;
+}
+.side-bar>a{
+    padding:5px 20px;
+}

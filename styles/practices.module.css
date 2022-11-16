@@ -1,0 +1,26 @@
+/* :root{
+    --textColor:#242424;
+    --pColor:#153794;
+    --sColor:#2188FF;
+  } */
+  
+.bar{
+    background-color:#153794;
+    padding: 1em; 
+    overflow-x:scroll;
+}
+/* to hide scroll bar but keep functionality */
+.bar::-webkit-scrollbar{
+    display: none;
+}
+.bar a{
+    color:#bbbbbb;
+    margin: 0.5em;
+    padding: 0.5em;
+    font-family: 'roboto';
+}
+.bar>a:active,
+.bar>a:hover,
+.bar>a:visited{
+color:white;
+}
